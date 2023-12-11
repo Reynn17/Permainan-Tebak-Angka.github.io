@@ -1,0 +1,122 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('image4.jpg') center/cover no-repeat;
+    color: #333;
+}
+
+header
+{
+    position: absolute;body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: url('image4.jpg') center/cover no-repeat;
+    color: #333;
+}
+
+h1 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.developers {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+header ul li a:hover ,
+header ul li a.active
+{
+    background: white;
+    color: #2b1055;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 50px;
+    margin: 0 auto; /* Set left and right margins to auto for centering */
+    margin-bottom: 50px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.range-container {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.range-container label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+.range-container input {
+    margin-bottom: 10px;
+    width: 48%;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+#footer {
+    position: fixed;
+    bottom: 3px;
+    left: 13px;
+    color: #fff; /* Warna teks putih */
+    font-size: 12px;
+}

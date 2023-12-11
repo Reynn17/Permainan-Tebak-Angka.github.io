@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <title>Permainan Tebak Angka | Guest Number</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tebak<br>Angka</h1>
+        <button class="start-button" onclick="startGame()">Start Game</button>
+        <button class="rules-button" onclick="rules()">Game Rules</button>
+        <button class="about-button" onclick="about()">About Game</button>
+    </div>
+
+    <script>
+        function startGame() {
+            // Redirect to index.html
+            window.location.href = 'StartGame.html';
+        }
+
+        function rules() {
+            window.location.href = 'rules.html';
+        }
+
+        function about() {
+            window.location.href = 'about.html';
+        }
+    </script>
+</body>
+</html>
